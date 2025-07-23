@@ -10,9 +10,15 @@
 }
 .bebas-neue {
   font-family: "Bebas Neue", sans-serif;
- 
+  font-optical-sizing: auto;
   font-style: normal;
   
 }
 
+.eb-garamond {
+  font-family: "EB Garamond", serif;
+ 
+  
+  font-style: normal;
+}
 @import "tailwindcss"

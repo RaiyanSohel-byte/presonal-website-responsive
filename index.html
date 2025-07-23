@@ -3,11 +3,81 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script
+      src="https://kit.fontawesome.com/050fdada3b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="talwind.css" />
     <title>Personal Website</title>
   </head>
   <body>
-    <header></header>
-    <main></main>
+    <header>
+      <!-- navbar section -->
+      <nav>
+        <ul
+          class="md:flex justify-end gap-[40px] hover:cursor-pointer roboto text-[1rem] font-medium md:mr-[142px] mt-[37px] text-center"
+        >
+          <li class="mb-[20px]">About</li>
+          <li class="mb-[20px]">Work</li>
+          <li class="mb-[20px]">Portfolio</li>
+          <li class="mb-[20px]">Contact</li>
+        </ul>
+      </nav>
+      <!-- hero section -->
+      <section
+        class="lg:flex justify-center items-center lg:gap-[237px] text-center lg:text-left mt-[50px] lg:mt-0 lg:mb-0 mb-[100px]"
+      >
+        <div class="lg:w-[500px]">
+          <h3
+            class="bebas-neue lg:text-[5rem] md:text-[4rem] md:leading-[4rem] text-[2.5rem] font-bold leading-[2.5rem] lg:leading-[5rem] mb-[18px]"
+          >
+            HELLO I"M <span class="text-[#fa8065]">RAIYAN SOHEL</span>
+          </h3>
+          <p
+            class="roboto text-[1rem] mx-auto lg:mx-0 font-normal text-[#3E3E3E] w-[309px] mb-[36px]"
+          >
+            A full stack allaround designer that placerat in massa consectetur
+          </p>
+          <button
+            class="text-[1rem] roboto font-normal text-white px-[56px] py-[18px] rounded-[6px] bg-linear-to-r from-[#FF8063] to-[#F46060] hover:cursor-pointer"
+          >
+            Hire Me
+          </button>
+        </div>
+
+        <div class="md:w-[485px] mx-auto lg:mx-0">
+          <img class="w-[100%]" src="images/do not use this pic.png" alt="" />
+        </div>
+      </section>
+    </header>
+    <main>
+      <!-- about section -->
+      <section
+        class="lg:flex justify-center items-center gap-[237px] md:ml-[123px] md:mr-[158px] ml-[50px] mr-[50px] text-center lg:text-left"
+      >
+        <div class="mb-[50px] md:mb-[100px] lg:mb-0">
+          <img class="w-100%" src="images/do not use this pic2.png" alt="" />
+        </div>
+        <div>
+          <h3 class="text-[3rem] leading-[3rem] font-bold">About</h3>
+          <p
+            class="roboto font-normal text-[1rem] leading-[1.5rem] text-[#3E3E3E] mt-[27px] mb-[24px] lg:w-[451px]"
+          >
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book.
+          </p>
+          <button
+            class="text-[1rem] roboto font-normal text-white px-[17px] py-[18px] rounded-[6px] bg-linear-to-r from-[#FF8063] to-[#F46060] hover:cursor-pointer"
+          >
+            <i class="fa-solid fa-arrow-down"></i> Download CV
+          </button>
+        </div>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>
